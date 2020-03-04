@@ -11,9 +11,9 @@ import ExoUn from "./components/ExoUn"
 import ExoDeux from "./components/ExoDeux"
 import ExoTrois from "./components/ExoTrois"
 import ExoQuatre from "./components/ExoQuatre"
-// import exoCinq from "#"
-// import exoSix from "#"
-// import exoSept from "#"
+import ExoCinq from "./components/ExoCinq"
+import ExoSix from "./components/ExoSix"
+import ExoSept from "./components/ExoSept"
 
 const App = () => {
   return (
@@ -60,13 +60,13 @@ const App = () => {
         <ExoQuatre />
       </Route>
       <Route path="/exoCinq">
-        <exoCinq />
+        <ExoCinq />
       </Route>
       <Route path="/exoSix">
-        <exoCinq />
+        <ExoSix />
       </Route>
       <Route path="/exoSept">
-        <exoSept />
+        <ExoSept />
       </Route>
       </Switch>
     </Router>
