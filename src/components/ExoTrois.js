@@ -38,5 +38,4 @@ const ExoTrois = () => {
     )
 }
 
-
 export default ExoTrois;
