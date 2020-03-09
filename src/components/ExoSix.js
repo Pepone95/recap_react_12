@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 
 
+//********************************************************************************
 const ExoSix = () => {
     var [value, setValue] = useState("")
     var [bouton, setBouton] = useState("")
@@ -83,8 +84,9 @@ const ExoSix = () => {
 
 <hr/>
 
-    {/**********************************************************************/}
-           
+{/********************************************************************************/}
+
+
                 <h3 className="text-center mt-5 text-success">Niveau 2</h3>
                 <div className="container bg-success py-3" style={{ width: 250 }}>
                     <input value={bouton} onChange={copier} type="text" /> <span></span>
@@ -119,5 +121,8 @@ const ExoSix = () => {
             </div>
         )
 }
+
+
+// *************************************************************************************************
 
 export default ExoSix;
